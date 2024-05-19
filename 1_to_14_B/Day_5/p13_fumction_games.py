@@ -17,3 +17,30 @@
 #     turn_left()
 # for n in range(0,6) : 
 #     goal()
+
+
+
+
+
+#    maza
+
+
+
+
+
+
+# def turn_right () :
+#     turn_left()
+#     turn_left()
+#     turn_left()
+# def goal() :
+#     if not wall_on_right() and not front_is_clear() :
+#         turn_right()
+#         move()
+#     elif front_is_clear() :
+#         move()
+#     elif wall_in_front() and not front_is_clear() :
+#         turn_left()
+
+# while not at_goal() : 
+#     goal()
