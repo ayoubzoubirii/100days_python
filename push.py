@@ -13,5 +13,5 @@ def lazygit(commit_message):
         print(f"An error occurred while running git command: {e}")
 
 # Example usage:
-commit_message = "PUSH"
+commit_message = "encode_decode"
 lazygit(commit_message)
