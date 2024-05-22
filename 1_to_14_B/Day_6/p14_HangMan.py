@@ -95,9 +95,7 @@ while  len(numL)  != len(word) and score != 0 :
     elif gs_letter in word  :
         if gs_letter in harf_kayn :
                 print("kayn")
-                score -= 1
-                print(HANGMANPICS[0])
-                del HANGMANPICS[0]
+
 
         for  n in range(0,len(word))  :
 
