@@ -19,16 +19,13 @@ travel_log = [
 # TODO: Write the function that will allow new countries
 # to be added to the travel_log. 
 def add_new_country(country, visits, list_of_cities) :
-  
     len_list = len(travel_log)
     print(len_list)
-    travel_log[len_list]["country"] = ""
-    travel_log[len_list]["visits"] = 0
-    travel_log[len_list]["cities"] = []
-    travel_log[len_list]["country"] = country
-    travel_log[len_list]["visits"] = visits
-    travel_log[len_list]["cities"] = list_of_cities
-  
+    addtolist = {}
+    addtolist["country"] = country
+    addtolist["visits"] = visits
+    addtolist["cities"] = list_of_cities
+    travel_log.append(addtolist)
 
 # Do not change the code below 👇
 add_new_country(country, visits, list_of_cities)
